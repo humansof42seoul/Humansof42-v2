@@ -4,7 +4,7 @@ import About from './pages/About';
 import Interview from './pages/Interview';
 import Random from './pages/Random';
 import Mypage from './pages/Mypage';
-import './App.css';
+import './App.scss';
 
 const App = () => {
   return (
