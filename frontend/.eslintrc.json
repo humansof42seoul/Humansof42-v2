@@ -7,12 +7,18 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "rules": {
-    "@typescript-eslint/explicit-module-boundary-types": "off"
-  },
   "settings": {
     "react": {
       "version": "detect"
     }
-  }
+  },
+  "rules": {
+    "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+}
 }
